@@ -8,7 +8,6 @@ treasureMap::treasureMap(const PNG & baseim, const PNG & mazeim, pair<int,int> s
 base = baseim;
 maze = mazeim;
 start = s;
-
 }
 
 void treasureMap::setGrey(PNG & im, pair<int,int> loc){
@@ -26,7 +25,6 @@ void treasureMap::setLOB(PNG & im, pair<int,int> loc, int d){
     pixel->r = 4*(pixel->r/4) + num/16;
     pixel->g = 4*(pixel->g/4) + (num%16)/4;
     pixel->b = 4*(pixel->b/4) + num%4;
-
 }
 
 PNG treasureMap::renderMap(){

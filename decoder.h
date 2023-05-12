@@ -2,12 +2,12 @@
 #ifndef _DECODER_H
 #define _DECODER_H
 
-#include "cs221util/PNG.h"
-#include "cs221util/RGBAPixel.h"
+#include "util/PNG.h"
+#include "util/RGBAPixel.h"
 #include <utility>
 #include <vector>
 using namespace std;
-using namespace cs221util;
+using namespace util;
 
 class decoder {
 
